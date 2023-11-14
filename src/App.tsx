@@ -39,6 +39,7 @@ export const App = () => {
         <CountText count={count} isTextColorRed={isTextColorRed} />
         <CountInput setCount={setCount} />
         <CountUpButton countUp={countUp} />
+        {count > 15 && "たくさん押したね♬"}
       </div>
     </div>
   );
