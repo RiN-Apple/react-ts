@@ -34,6 +34,7 @@ export const App = () => {
     <div className="mx-auto w-1/3">
       {/* cssはtailwind */}
       <div className="flex flex-col mt-6 text-center">
+        <p className="text-3xl">React.js </p>
         {/* 子コンポーネントにバケツリレー!! */}
         <CountText count={count} isTextColorRed={isTextColorRed} />
         <CountInput setCount={setCount} />
